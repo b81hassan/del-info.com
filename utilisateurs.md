@@ -1,3 +1,3 @@
-1- les employés
-2- la délégation syndicale
-3- le syndicat
+1- les employés 
+2- les memebres de la délégation syndicale
+3- l'organisation syndicale
