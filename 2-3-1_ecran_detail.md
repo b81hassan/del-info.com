@@ -1,4 +1,6 @@
-# 1 : Formulaire de demande d'information : #
+# 1 : Formulaire de demande d'informations : #
+
+![Formulaire de demande d'informations](./images/formulaire_demande_d'informations.jpg)
 
 
 ## Description : ##
@@ -9,7 +11,7 @@
 - Un bouton de soumission permet à l'utilisateur de valider et d'envoyer sa demande.
 - Un bouton de retour en arrière.
 
-# 2 : Liste des demandes d'information : #
+# 2 : Liste des demandes d'informations : #
 
 
 ## Description : ##

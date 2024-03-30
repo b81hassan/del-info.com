@@ -15,9 +15,12 @@
 
 - En tant que gestionnaire de l'application, je veux pouvoir générer des rapports sur les demandes d'information traitées, les délais de réponse et les performances des représentants syndicaux.
 
-- En tant que gestionnaire de l'application, je veux pouvoir gérer les autorisations d'accès des utilisateurs et leur attribuer des rôles appropriés (travailleur, représentant syndical, administrateur, etc.).
+- En tant que gestionnaire de l'application, je veux pouvoir gérer les autorisations d'accès des utilisateurs et leur attribuer des rôles appropriés (travailleur, représentant syndical, administrateur).
+
 - En tant que administrateur(le syndicat), je dois pouvoir répondre aux demandes d'informations des travailleurs et leurs fournir une réponse dans les plus bref délais.
 
 - En tant que travailleur ou représentant syndical, je veux pouvoir rechercher et filtrer les demandes d'information en fonction de différents critères tels que la pertinance, la date de soumission, le statut de traitement, etc.
 
 - En tant que travailleur ou représentant syndical, je veux pouvoir communiquer de manière sécurisée et confidentielle à travers l'application pour clarifier des points concernant une demande d'information. 
+
+- En tant que gestionnaire de l'application, je veux pouvoir communiquer de manière sécurisé et confidentiel à travers l'application pour clarifier des points concernat une demande d'informations.
