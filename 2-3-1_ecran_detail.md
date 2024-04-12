@@ -1,6 +1,6 @@
 # 1 : Formulaire de demande d'informations : #
 
-![Formulaire de demande d'informations](./images/formulaire_demande_d'informations.jpg)
+
 
 
 ## Description : ##

@@ -13,17 +13,18 @@ le délégué est un employé aussi.
 
 La relation entre delegate et type-request :
 
-.un délégué peut avoir une ou plusieurs compétences.
+- un délégué peut avoir une ou plusieurs compétences.
 
-.un délégué recoit les types de demande selon ses compétences.
+- un délégué recoit les types de demande selon ses compétences.
 
 
 3- La table **info-request** contient les demandes d'informations:
 
 La relation info-request et employe:
 
-. un employé peut avoir plusieurs demandes d'informations.
-. un délégué peut traiter plusieurs demandes d'informations.
+-  un employé peut avoir plusieurs demandes d'informations.
+
+-  un délégué peut traiter plusieurs demandes d'informations.
 
 4- la table **type-request** contient les différents types de demandes d'informations:
 1. salaire et avantages
@@ -36,10 +37,10 @@ La relation info-request et employe:
 
 La relation entre syndicat et delegate:
 
-. chaque délégué à un secretaire syndicale
+-  chaque délégué à un secretaire syndicale
 
 la relation entre syndicat et type-request:
 
-. un secretaire peut traiter plusieurs demandes d'informations
-. un secretaire ne peut recevoir qu'un seul type de demande.
+-  un secretaire peut traiter plusieurs demandes d'informations
+-  un secretaire ne peut recevoir qu'un seul type de demande.
 
