@@ -1,10 +1,11 @@
 ## Repository pour un dossier d'annalyse ##
 
 Ce repository contient un dossier d'analyse :
-- Bachelier en Informatique de gestion de l’EPFC
-- le cours : Principes d’analyse informatique 
-- professeur de Jean-Michel Depaepe
+
+- Bachelier en informatique de gestion de l’EPFC
+- Le cours : Principes d’analyse informatique 
+- Professeur  Jean-Michel de Depaepe
 - Etudiant : Belhajji Hassan
-- Projet : l'pplication "del-info.com"
-- Année Académique : 2023 - 2024
+- Projet : l'application "del-info.com"
+- Année académique : 2023 - 2024
 

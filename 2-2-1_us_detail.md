@@ -22,7 +22,7 @@
 - Les demandes d'information doivent être liées aux conditions de travail ou aux questions syndicales.
 - Le système doit garantir la confidentialité des informations.
 - Chaque demande d'information doit être attribuée à un représentant syndical pour traitement dans les plus brefs délais.
-- Les travailleurs ont le droit de suivre l'état de leur demande d'information et de recevoir des mises à jour sur l'etat de son avancement.
+- Les travailleurs ont le droit de suivre l'état de leur demande d'information et de recevoir des mises à jour sur l'état de son avancement.
 
 # User story 2 :  En tant que représentant syndical, je veux pouvoir consulter toutes les demandes d'information soumises par les travailleurs de mon entreprise. #
  
@@ -30,7 +30,7 @@
 
 - Le représentant syndical se connecte à l'application  des demandes d'informations.
 - Sur son tableau de bord, il accède à la section dédiée aux demandes d'information.
-- Il consulte la liste des demandes d'information soumises par les travailleurs de son entreprise, triées par ordre chronologique ou par pertinance.
+- Il consulte la liste des demandes d'information soumises par les travailleurs de son entreprise, triées par ordre chronologique ou par pertinence.
 - Pour chaque demande d'information, il peut visualiser les détails tels que :
     - Le sujet de la demande.
     - La description détaillée du problème ou de la question.

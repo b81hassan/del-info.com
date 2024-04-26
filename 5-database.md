@@ -1,22 +1,22 @@
 # database #
 
- Le modèle suivant décrit le schéma de la base de données utilisée pour l'application:
+ Le modèle suivant décrit le schéma de la base de données utilisée pour l'application :
 
 ![ERD](./images/BD.png)
 
 
-1- la table **employe** contient la liste des employés.
+1- La table **employe** contient la liste des employés.
 
-le délégué est un employé aussi.
+Le délégué est un employé aussi
 
-2- La table **delegate** contient la liste des délégués ainsi que leur compétences.
+2- La table **delegate** contient la liste des délégués ainsi que leurs compétences
 
 La relation entre delegate et type-request :
 
-- un délégué peut avoir une ou plusieurs compétences.
-
-- un délégué recoit les types de demande selon ses compétences.
-- un délégué peut recevoir plusieurs demandes d'informations.
+- Un délégué peut avoir une ou plusieurs compétences.
+ 
+- Un délégué recoit les types de demande selon ses compétences.
+- Un délégué peut recevoir plusieurs demandes d'informations.
 
 
 
@@ -24,33 +24,34 @@ La relation entre delegate et type-request :
 
 La relation request et employe:
 
--  un employé peut faire plusieurs demandes d'informations.
-- une demande ne concerne qu'un seul employe
+- Un employé peut faire plusieurs demandes d'informations.
+- Une demande ne concerne qu'un seul employe
   
 
 
-4- la table **type-request** contient les différents types de demandes d'informations:
-1. salaire et avantages
-2. bien etre et prévention
-3. condition de travail
-4. congés et absences
-5. prime syndicale et cotisations
+4-La table **type-request** contient les différents types de demandes d'informations :
+
+1. Salaire et avantages
+2. Bien etre et prévention
+3. Condition de travail
+4. Congés et absences
+5. Prime syndicale et cotisations
 
 
-5- La table **syndicat** contient le nom du sécretaire syndicale en lien direct avec les délégués.
+5-La table **syndicat** contient le nom du sécretaire syndicale en lien direct avec les délégués.
 
-La relation entre syndicat et delegate:
+La relation entre syndicat et delegate :
 
--  chaque délégué à un seul secretaire syndicale
-- le secrétaire est en relation avec tous les délégués
+- Chaque délégué a un seul secretaire syndicale
+- Le secrétaire est en relation avec tous les délégués
 
-la relation entre syndicat et type-request:
+la relation entre syndicat et type-request :
 
--  un secretaire peut traiter plusieurs demandes d'informations
--  un secretaire ne peut recevoir qu'un seul type de demande.
+-  Un secretaire peut traiter plusieurs demandes d'informations
+-  Un secretaire ne peut recevoir qu'un seul type de demande.
 
 La relation entre syndicat et employe :
 
-- un employe peut avoir qu'un seul syndicat
-- un syndicat peut avoir plusieurs affiliés (les employes)
+- Un employe peut avoir qu'un seul syndicat
+- Un syndicat peut avoir plusieurs affiliés (les employes)
 
