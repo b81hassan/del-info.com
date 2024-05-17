@@ -16,9 +16,9 @@
 
 ## Règles métier : ##
 
+
+
 - Chaque demande d'information doit contenir au minimum un sujet et une description.
-
-
 - Les demandes d'information doivent être liées aux conditions de travail ou aux questions syndicales.
 - Le système doit garantir la confidentialité des informations.
 - Chaque demande d'information doit être attribuée à un représentant syndical pour traitement dans les plus brefs délais.
