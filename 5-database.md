@@ -55,3 +55,15 @@ La relation entre syndicat et employe :
 - Un employe peut avoir qu'un seul syndicat
 - Un syndicat peut avoir plusieurs affiliés (les employes)
 
+6- La table **shift** contient les 3 différents shift qui existe dans l'entrprise : la matin(AM) , l'aprés-midi(PM) et la nuit(N).
+
+La relation entre employe et shift:
+
+- Chaque employe travaille dans un seul shift.
+- dans chaque shift il y a plusieurs travailleurs.
+
+7- La table **compétence** contient les différentes compétences qu'un délégué peut avoir :
+- chaque délégué peut avoir une ou plusieurs compétences.
+
+
+
