@@ -1,5 +1,5 @@
 # 2 : Liste des demandes d'informations : #
-
+![ERD](./images/liste_demande.png)
 
 ## Description : ##
 

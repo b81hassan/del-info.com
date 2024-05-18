@@ -1,4 +1,6 @@
 ## Mes demandes d'info ###
+ 
+![ERD](./images/mes_demandes.png)
 
 ### Description : ###
 

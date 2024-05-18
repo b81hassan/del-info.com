@@ -3,7 +3,7 @@
 Les entités de la demande d'information sont :
 
 
-![diagramme](./images/diagramme.png)
+![diagramme](./images/entité.png)
 
 
 ### Employe : ###
@@ -16,6 +16,13 @@ La classe employe représente un travailleur,ses attributs sont :
 - lastName : nom de famille
 - email : il doit être unique
 - shift : le travailleur fait parti d'une seule équipe qui peut être modifiée
+
+### Shift ###
+
+la classe shift représente les différents shift au sein de l'entrprise, ses attributs sont : 
+
+- id : l'identifiant technique permettant de retrouver le type de shift 
+- name : le nom du shift : matin (AM), aprés-midi (PM) ou nuit (N)
 
 ### Request : ###
 
@@ -40,6 +47,13 @@ La classe delegate représente la délégation syndicale :
 - lastName : nom de famille
 - email : il doit être unique
 - compétence : les différentes compétences d'un délégué
+
+### Competence ###
+
+La classe compétence représente les différentes compétence qu'un délégué pourra avoir.
+
+- id : l'identifiant en base de données 
+- name : le nom du type de compétence , il y en 5.
 
 ### Syndicat : ###
 

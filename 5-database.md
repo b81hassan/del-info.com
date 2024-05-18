@@ -2,7 +2,7 @@
 
  Le modèle suivant décrit le schéma de la base de données utilisée pour l'application :
 
-![ERD](./images/BD.png)
+![ERD](./images/db.png)
 
 
 1- La table **employe** contient la liste des employés.
@@ -13,10 +13,8 @@ Le délégué est un employé aussi
 
 La relation entre delegate et type-request :
 
-- Un délégué peut avoir une ou plusieurs compétences.
- 
-- Un délégué recoit les types de demande selon ses compétences.
-- Un délégué peut recevoir plusieurs demandes d'informations.
+
+ - Un délégué peut recevoir plusieurs demandes d'informations.
 
 
 
@@ -25,14 +23,13 @@ La relation entre delegate et type-request :
 La relation request et employe:
 
 - Un employé peut faire plusieurs demandes d'informations.
-- Une demande ne concerne qu'un seul employe
-  
+-
 
 
 4-La table **type-request** contient les différents types de demandes d'informations :
 
 1. Salaire et avantages
-2. Bien etre et prévention
+2. Bien etre et sécurité au travail
 3. Condition de travail
 4. Congés et absences
 5. Prime syndicale et cotisations
@@ -55,7 +52,7 @@ La relation entre syndicat et employe :
 - Un employe peut avoir qu'un seul syndicat
 - Un syndicat peut avoir plusieurs affiliés (les employes)
 
-6- La table **shift** contient les 3 différents shift qui existe dans l'entrprise : la matin(AM) , l'aprés-midi(PM) et la nuit(N).
+6- La table **shift** contient les 3 différents shift qui existe dans l'entrprise : matin(AM) , aprés-midi(PM) et  nuit(N).
 
 La relation entre employe et shift:
 
@@ -63,7 +60,9 @@ La relation entre employe et shift:
 - dans chaque shift il y a plusieurs travailleurs.
 
 7- La table **compétence** contient les différentes compétences qu'un délégué peut avoir :
-- chaque délégué peut avoir une ou plusieurs compétences.
 
+- chaque délégué peut avoir une ou plusieurs compétences.
+-  Une demande ne concerne qu'un seul employe
+  
 
 
