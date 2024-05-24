@@ -9,12 +9,12 @@
 
 Le délégué est un employé aussi
 
-2- La table **delegate** contient la liste des délégués ainsi que leurs compétences
+2- La table **delegate** contient la liste des délégués
 
 La relation entre delegate et type-request :
 
 
- - Un délégué peut recevoir plusieurs demandes d'informations.
+ - Un délégué peut recevoir et traité plusieurs demandes d'informations.
 
 
 
@@ -23,7 +23,7 @@ La relation entre delegate et type-request :
 La relation request et employe:
 
 - Un employé peut faire plusieurs demandes d'informations.
--
+- chaque demande ne concerne qu'un seul travailleur
 
 
 4-La table **type-request** contient les différents types de demandes d'informations :
@@ -39,7 +39,7 @@ La relation request et employe:
 
 La relation entre syndicat et delegate :
 
-- Chaque délégué a un seul secretaire syndicale
+- tous les délégué ont un seul secretaire syndicale
 - Le secrétaire est en relation avec tous les délégués
 
 la relation entre syndicat et type-request :
@@ -49,7 +49,7 @@ la relation entre syndicat et type-request :
 
 La relation entre syndicat et employe :
 
-- Un employe peut avoir qu'un seul syndicat
+- Un employe peut etre affilié à un syndicat
 - Un syndicat peut avoir plusieurs affiliés (les employes)
 
 6- La table **shift** contient les 3 différents shift qui existe dans l'entrprise : matin(AM) , aprés-midi(PM) et  nuit(N).
@@ -57,12 +57,12 @@ La relation entre syndicat et employe :
 La relation entre employe et shift:
 
 - Chaque employe travaille dans un seul shift.
-- dans chaque shift il y a plusieurs travailleurs.
+
 
 7- La table **compétence** contient les différentes compétences qu'un délégué peut avoir :
 
 - chaque délégué peut avoir une ou plusieurs compétences.
--  Une demande ne concerne qu'un seul employe
+
   
 
 

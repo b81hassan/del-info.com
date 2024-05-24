@@ -8,7 +8,7 @@ Les entités de la demande d'information sont :
 
 ### Employe : ###
 
-La classe employe représente un travailleur,ses attributs sont :
+La classe employe représente un travailleur, ses attributs sont :
 
 - id :  l'identifiant technique permettant de retrouver l'employé dans la DB.
 - NN : le numéro de registre national , il est unique.
