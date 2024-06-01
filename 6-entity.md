@@ -3,7 +3,7 @@
 Les entités de la demande d'information sont :
 
 
-![diagramme](./images/entité.png)
+![diagramme](./images/entity.png)
 
 
 ### Employe : ###
