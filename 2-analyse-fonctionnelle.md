@@ -10,7 +10,7 @@ La demande d'information ainsi que son traitement peuvent  être résumés dans 
 2. Transmet à un autre délégué.
 3. Met en attente de traitement.
 
-- **le syndicat** reçoit la nouvelle demande d'information et puis, soit:
+- **le syndicat** reçoit la nouvelle demande et puis, soit:
 
 1. Formule une réponse.
 2. Met en attente de traitement.

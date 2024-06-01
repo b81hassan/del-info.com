@@ -26,7 +26,7 @@ La relation request et employe:
 - chaque demande ne concerne qu'un seul travailleur
 
 
-4-La table **type-request** contient les différents types de demandes d'informations :
+4-La table **type_request** contient les différents types de demandes d'informations :
 
 1. Salaire et avantages
 2. Bien etre et sécurité au travail

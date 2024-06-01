@@ -32,7 +32,7 @@ La classe request représente une demande d'information :
 - start : est la date de début de l'envoi de la demande d'information, start doit être aujourd'hui ou dans le futur
 - type : est une réference au type de demande d'information
 
-### Type_request : ###
+### TypeRequest : ###
 
 La classe type_request représente un type de demande d'information  : 
 -  id : est l'identifiant en base de données
