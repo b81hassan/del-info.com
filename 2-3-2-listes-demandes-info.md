@@ -1,0 +1,10 @@
+# 2 : Liste des demandes d'informations : #
+![ERD](./images/liste_demande.png)
+
+## Description : ##
+
+- La liste affiche toutes les demandes d'information soumises par les travailleurs.
+- Chaque élément de la liste présente des informations telles que le sujet de la demande, le nom du travailleur ayant soumis la demande, la date de soumission et le statut actuel de la demande.
+- Les demandes peuvent être triées par statut (en attente, en cours de traitement, traitées, etc.) ou par date de soumission.
+- Les représentants syndicaux peuvent effectuer des actions telles que l'attribution de la demande à un membre de l'équipe pour traitement.
+- Les représentants syndicaux peuvent envoyer des mises à jour aux travailleurs. 
